@@ -63,10 +63,10 @@ export const globalStyles = globalCss({
 export const GlobalStyle: React.FC<GlobalStyleProps> = ({ children }) => {
   const theme = createTheme({
     colors: {
-      brand1: "#5C63ED",
-      brand2: "#7D82F1",
-      brand3: "#BEC1F8",
-      brand4: "#E7E8FC",
+      brand1: "#1b263b",
+      brand2: "#415a77",
+      brand3: "#778da9",
+      brand4: "#e0e1dd",
       grey1: "#212529",
       grey2: "#495057",
       grey3: "#CED3D7",
@@ -85,8 +85,8 @@ export const GlobalStyle: React.FC<GlobalStyleProps> = ({ children }) => {
       3: "2rem",
     },
     fonts: {
-      titles: '"Lexend", sans-serif;',
-      texts: '"Inter", sans-serif',
+      titles: '"Raleway", sans-serif',
+      texts: '"Work Sans", sans-serif',
     },
     fontSizes: {
       title1: "2.75rem",
