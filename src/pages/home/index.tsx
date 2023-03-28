@@ -25,7 +25,6 @@ import {
   ProjectAreaWrapperColumns,
 } from "./style";
 
-
 export const Home = (): JSX.Element => {
   return (
     <main>
@@ -75,9 +74,9 @@ export const Home = (): JSX.Element => {
                 Vamos trocar uma ideia?
               </Text>
               <Text as="p" type="body1" color="grey2">
-                No linkedIn sempre estou compartilhando meus processos diários
-                para desenvolver esses projetos e estou disposto a trocar
-                algumas ideias por lá
+                No linkedIn sempre estou compartilhando meus processos diários e
+                os resultados obtidos ao desenvolver esses projetos. Estou
+                disposto a trocar algumas ideias por lá.
               </Text>
               <Button
                 type="primary"
