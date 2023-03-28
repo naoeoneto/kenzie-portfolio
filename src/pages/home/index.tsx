@@ -6,6 +6,7 @@ import { Button } from "@/styles/Buttons";
 // Components
 import { Stack } from "@/components/Stack";
 import { Project } from "@/components/Project";
+import { About } from "@/components/About";
 
 // Data
 import { stackData } from "@/utils/stackData";
@@ -23,7 +24,6 @@ import {
   ProjectsAreaContent,
   ProjectAreaWrapperColumns,
 } from "./style";
-
 
 export const Home = (): JSX.Element => {
   return (
@@ -46,10 +46,14 @@ export const Home = (): JSX.Element => {
               <Button as="a" href="#tecnologias" type="btLink" color="grey5">
                 Tecnologias
               </Button>
+              <Button as="a" href="#sobre_mim" type="btLink" color="grey5">
+                Sobre mim
+              </Button>
             </HeaderButtonsArea>
           </HeaderContent>
         </Container>
       </Header>
+      <About />
       <StackSection id="tecnologias">
         <Container>
           <Text as="h4" type="heading3" color="grey1">
@@ -70,9 +74,9 @@ export const Home = (): JSX.Element => {
                 Vamos trocar uma ideia?
               </Text>
               <Text as="p" type="body1" color="grey2">
-                No linkedIn sempre estou compartilhando meus processos diários
-                para desenvolver esses projetos e estou disposto a trocar
-                algumas ideias por lá
+                No linkedIn sempre estou compartilhando meus processos diários e
+                os resultados obtidos ao desenvolver esses projetos. Estou
+                disposto a trocar algumas ideias por lá.
               </Text>
               <Button
                 type="primary"
